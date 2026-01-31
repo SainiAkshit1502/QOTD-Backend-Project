@@ -1,0 +1,47 @@
+[
+  {
+    "id": "q1",
+    "title": "Sum of Two Numbers",
+    "difficulty": "Easy",
+    "statement": "Given two integers separated by space, output their sum.",
+    "sample_input": "2 3",
+    "sample_output": "5",
+    "test_cases": [
+      {
+        "input": "2 3",
+        "expected_output": "5"
+      },
+      {
+        "input": "10 5",
+        "expected_output": "15"
+      }
+    ],
+    "hints": [
+      "Split the input by space and convert to integers",
+      "Return a+b"
+    ],
+    "expected_solution": "def solve(input_str):\n    a,b=map(int,input_str.split())\n    return str(a+b)"
+  },
+  {
+    "id": "q2",
+    "title": "Reverse String",
+    "difficulty": "Easy",
+    "statement": "Given a string, return the string reversed.",
+    "sample_input": "hello",
+    "sample_output": "olleh",
+    "test_cases": [
+      {
+        "input": "hello",
+        "expected_output": "olleh"
+      },
+      {
+        "input": "abc",
+        "expected_output": "cba"
+      }
+    ],
+    "hints": [
+      "Use slicing s[::-1]"
+    ],
+    "expected_solution": "def solve(input_str):\n    return input_str[::-1]"
+  }
+]

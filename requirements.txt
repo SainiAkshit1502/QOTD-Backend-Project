@@ -1,0 +1,4 @@
+# Use flexible, compatible versions to avoid pip resolution issues
+fastapi>=0.100.0,<0.110.0
+uvicorn[standard]>=0.22.0
+pydantic>=2.0,<3.0
