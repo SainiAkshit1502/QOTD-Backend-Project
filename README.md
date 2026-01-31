@@ -1,6 +1,15 @@
 # QOTD Backend (Python / FastAPI)
 
-A lightweight Question-of-the-Day backend implemented with FastAPI. Designed for demonstration and easy deployment to platforms like Render or Railway.
+A lightweight Question-of-the-Day backend implemented with FastAPI. Designed for demonstration and easy deployment to platforms like Render .
+
+Live URL: https://qotd-backend-project.onrender.com/
+API Docs: https://qotd-backend-project.onrender.com/docs
+
+## Tech Stack 
+-FastAPI
+-Docker
+-Python
+-Render
 
 ## Features ✅
 - Get today's question (deterministic by day) `GET /api/qotd/today`
